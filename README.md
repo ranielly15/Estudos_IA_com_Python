@@ -1,4 +1,4 @@
-# 🤖 Chat com PDFs usando RAG (Retrieval-Augmented Generation)
+#  Chat com PDFs usando RAG (Retrieval-Augmented Generation)
 
 Este projeto é um sistema de perguntas e respostas baseado em documentos PDF. Ele utiliza a técnica **RAG** para permitir que uma Inteligência Artificial (OpenAI) responda dúvidas baseadas exclusivamente no conteúdo dos arquivos fornecidos, reduzindo alucinações e focando no contexto real.
 
@@ -10,14 +10,14 @@ Este projeto é um sistema de perguntas e respostas baseado em documentos PDF. E
 * **Modelo de LLM:** OpenAI (GPT-3.5/4)
 * **Gerenciamento de Ambiente:** Venv + Dotenv
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 1.  **Carregamento de PDFs:** Lê automaticamente todos os arquivos `.pdf` armazenados na pasta `base`.
 2.  **Processamento de Texto:** Divide os documentos em pedaços menores (*chunks*) para otimizar a leitura da IA.
 3.  **Busca Semântica:** Transforma textos em vetores numéricos (embeddings) para encontrar os trechos mais relevantes para a pergunta do usuário.
 4.  **Chat Interativo:** Interface via terminal para conversar com os documentos.
 
-## 📚 Aprendizados e Desafios Superados
+## Aprendizados e Desafios Superados
 https://www.youtube.com/@HashtagProgramacao
 Este projeto foi inspirado em um tutorial do canal **(https://www.youtube.com/@HashtagProgramacao)**, mas foi **refatorado e atualizado** para funcionar com as versões mais recentes das bibliotecas em 2025.
 
@@ -26,7 +26,7 @@ Durante o desenvolvimento, os seguintes desafios foram resolvidos:
 * **Ambiente Windows:** Resolução de conflitos de DLL e configuração correta de variáveis de ambiente no Windows.
 * **Segurança:** Implementação de variáveis de ambiente (`.env`) para proteger a chave da API, garantindo que dados sensíveis não subam para o GitHub.
 
-## ⚙️ Como rodar o projeto localmente
+##  Como rodar o projeto localmente
 
 Siga os passos abaixo para testar na sua máquina:
 
